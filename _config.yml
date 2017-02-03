@@ -1,13 +1,10 @@
 # Site settings
-title: Example Site Template
-email: example@website.com
+title: Fast Captions!
+email: support@fastcaptions.css
 description: > # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
+  Perfect closed captions for your Youtube videos.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "www.example-website.com" # the base hostname & protocol for your site
-# twitter_username: nathanael_smith
-# github_username:  natethegreat
-# topic: Nathanael
+url: "http://fastcaptions.cc" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
