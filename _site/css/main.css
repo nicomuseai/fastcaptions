@@ -3099,9 +3099,6 @@ pre {
   position: relative;
   margin-bottom: 6px; }
 
-.site-nav-left {
-  width: calc(100% - 300px); }
-
 .site-nav-right {
   position: relative;
   top: 6px; }
