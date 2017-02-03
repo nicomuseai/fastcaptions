@@ -1,0 +1,13 @@
+# Site settings
+title: Example Site Template
+email: example@website.com
+description: > # this means to ignore newlines until "baseurl:"
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "www.example-website.com" # the base hostname & protocol for your site
+# twitter_username: nathanael_smith
+# github_username:  natethegreat
+# topic: Nathanael
+
+# Build settings
+markdown: kramdown

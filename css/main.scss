@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "canada-type-gibson", sans-serif;
+$base-font-size:   14px;
+$small-font-size:  13px;
+$base-line-height: 1.6;
+
+$spacing-unit:     24px;
+
+$text-color:       #4A4A4A;
+$dark-text-color:  darken($text-color, 5%);
+$light-text-color:  lighten($text-color, 25%);
+
+// $background-color: #f9f9f9;
+$background-color: #ffffff;
+$brand-color:      #6D7BF9; // Blue
+$brand-color-blue:  #3B86C4; // Blue
+$brand-color-hover: darken($brand-color, 3%);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 30%);
+$grey-color-extra-light: lighten($grey-color, 45%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1150px;
+
+$on-palm:          600px;
+$on-laptop:        750px;
+
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "animate",
+        "mobile-nav",
+        "custom"
+;
